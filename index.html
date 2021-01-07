@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--declear any shit in head portion-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--This line makes the project responsive-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>murimura-bkk</title>
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="nav">
+            <div class="nav-menu flex-row"> <!--nav menu class is flexible item**-->
+                <div class="nav-logo">
+                    <a href="#" class="brand-text">MURIMURA.BKK</a> <!--# means if we clcik at this text, it will relosd the whole page-->
+                </div>
+                <div class="hamburger">
+                    <div class="hamburger-icon"><i class="fas fa-bars"></i></div>
+                </div>
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">HOME</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">CLOTHES</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-cart">
+                    <a href="#" style="color: #545454;"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+            </div>
+        </nav>
+        <main> <!--unique to the document, not repeat across different pages-->
+            <!--hero section-->
+            <section class="hero-section"> <!--when want to divide web page into sections such as hero, footer-->
+                <div class="hero-background"> <!--but div used to define group of element-->
+                    <h1>Korean women clothes platform</h1>
+                    <h2>Welcome Murimura girls!</h2>
+                    <button class="btn shop-now">SHOP NOW</button>
+                </div>
+            </section>
+            <!--card section using owl carousel-->
+            <section class="card-section">
+                <div class="container">
+                    <h2 class="must-have">MUST HAVE ITEMS</h2>
+                    <h5>What's popular on Murimura.bkk</h5>
+                    <div class="owl-theme product-cards"> <!--all cards in a row-->
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://i.pinimg.com/564x/6e/35/4a/6e354afa5ce8ed495fc83b3f6f4c264d.jpg" alt="product-1" class="pdt-img">
+                            </div>
+                            <div class="product-caption">
+                                <h1 class="product-name">WHITE CAMI TOP</h1>
+                                <h3 class="product-price">390 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <img src="https://i.pinimg.com/564x/b4/f9/a5/b4f9a5a4f64f73e3d3c309975ace4478.jpg" alt="product-1">
+                            <div class="product-caption">
+                                <h1 class="product-name">OFF-SHOULDER BLACK TOP</h1>
+                                <h3 class="product-price">490 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <img src="https://i.pinimg.com/564x/c2/9d/de/c29ddea71e65a3e8d113068f47540f5b.jpg" alt="product-1">
+                            <div class="product-caption">
+                                <h1 class="product-name">BEIGE CAMI TOP</h1>
+                                <h3 class="product-price">390 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--lookbook section-->
+            <section class="lookbook">
+                <h2 class="must-have">MURIMURA GIRL'S LOOKBOOK</h2>
+                <div class="category">
+                    <ul class="cat-list">
+                        <li class="list-item">SPOT NEW LOOKS&nbsp;&nbsp;<span><i class="fas fa-circle"></i></span></li>
+                        <li class="list-item">POPULAR</li>
+                        <li class="list-item">MIX AND MATCH</li>
+                        <li class="list-item">FESTIVAL THEME</li>
+                        <li class="list-item">WOMEN CLOTHES</li>
+                        <li class="list-item">CELEBRITY</li>
+                        <li class="list-item">OOTD</li>
+                    </ul>
+                </div>
+                <div class="shop-by-look">
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/6f/55/75/6f5575f0f249c468b88fa71147411040.jpg" class="image">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/43/ee/f5/43eef5f8c29087eb3c78067ab30190d8.jpg">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/da/f9/15/daf915ffdeb94d60f5460ce4952d0c75.jpg">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/ca/90/b0/ca90b01f87964b58a2b8de582fc6a37c.jpg">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/4f/a2/cf/4fa2cffeaf414ad8f736aead229cd94c.jpg">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                    <div class="the-look">
+                        <img src="https://i.pinimg.com/564x/86/d3/c9/86d3c9a9eeb6b776e1644425742e9ac6.jpg">
+                        <div class="overlay"><i class="fas fa-heart"></i></div>
+                    </div>
+                </div>
+                <div class="blogger">
+                    <h2 class="must-have">FASHION BLOG</h2>
+                </div>
+                <div class="container-blog">
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/92/05/91/920591a0bd7affa7812060132bcde37a.jpg" class="img">
+                        </div>
+                        <div class="blog-title">
+                            <h1>WHITE AND BEIGE WINTER COMBI</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <h1 class="text-brown">RELATED PRODUCTS</h1>
+                            <ul class="related-list">
+                                <li class="related-items">WHITE T-TOP<span>250 BHT</span></li>
+                                <li class="related-items">BROWNISH PANTS<span>550 BHT</span></li>
+                                <li class="related-items">FLUFFY BROWN CARDIGANT<span>390 BHT</span></li>
+                            </ul>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/80/45/c6/8045c6d71f4efd269fe7278a228eeee1.jpg">
+                        </div>
+                        <div class="blog-title">
+                            <h1>BULKY BLAZER AND CROP TOP</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <h1 class="text-brown">RELATED PRODUCTS</h1>
+                            <ul class="related-list">
+                                <li class="related-items">BEIGE BLAZER<span>650 BHT</span></li>
+                                <li class="related-items">CHOCO CAMI TOP<span>390 BHT</span></li>
+                                <li class="related-items">WHITE BULKY TROUSER<span>590 BHT</span></li>
+                            </ul>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/4f/72/63/4f7263d399ae6af09d5a7083fc24fc70.jpg">
+                        </div>
+                        <div class="blog-title">
+                            <h1>EARTH TONE CASUAL SUIT</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <h1 class="text-brown">RELATED PRODUCTS</h1>
+                            <ul class="related-list">
+                                <li class="related-items">OLIVE SET<span>890 BHT</span></li>
+                                <li class="related-items">PEACH SET<span>890 BHT</span></li>
+                                <li class="related-items">NUDE SET<span>890 BHT</span></li>
+                            </ul>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                </>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container-ft">
+                <div class="about-us">
+                    <h3>About Murimura.bkk</h3>
+                    <p>Korea women clothes and accessories online store since 2020. We deliver worldwide right at your door :-)</p>
+                </div>
+                <div class="suggestion">
+                    <h3>Any suggestion?</h3>
+                    <p>Your opinion is important to us</p>
+                    <div class="form-element">
+                        <input type="text" placeholder="Write it here"><span><i class="fas fa-paper-plane"></i></span>
+                    </div>
+                </div>
+                <div class="instagram">
+                    <h3>Instagram</h3>
+                    <div class="flex-row">
+                        <img src="https://i.pinimg.com/564x/6a/d3/e0/6ad3e06b6b0f103a412c04e33abf98b2.jpg">
+                        <img src="https://i.pinimg.com/564x/a5/cf/b9/a5cfb97bde28bb9ae2f6ff11caa9f746.jpg">
+                        <img src="https://i.pinimg.com/564x/01/fb/90/01fb90691a6ac49458d0ea2b0678ebca.jpg">
+                    </div>
+                    <div class="flex-row">
+                        <img src="https://i.pinimg.com/564x/db/ee/ee/dbeeee0130de8c1c55b592f22d0a9313.jpg">
+                        <img src="https://i.pinimg.com/564x/35/0d/fd/350dfd6af7df35fda1fb120b89434c4b.jpg">
+                        <img src="https://i.pinimg.com/564x/6a/df/5e/6adf5e5d3937bfba0a6d4ece8389f598.jpg">
+                    </div>
+                </div>
+                <div class="follow-us">
+                    <h3>Keep in touch!</h3>
+                    <div>
+                        <a href="https://www.instagram.com/murimura.bkk/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://web.facebook.com/murimura.bkk">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://line.me/R/ti/p/%40766gpdpq">
+                            <i class="fab fa-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
