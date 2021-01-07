@@ -525,3 +525,10 @@ grid-template-columns: 50% 50%; /*specified column width in each row
   padding: 0 0.4rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+  footer .container-ft {
+    display: flex;
+    flex-direction: column;
+  }
+}
