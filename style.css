@@ -349,6 +349,15 @@ grid-template-columns: 50% 50%; /*specified column width in each row
   .blog-content {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    padding: 32px 24px;
+  }
+  .container-blog {
+    padding: 0;
+  }
+
+  .read-more {
+    margin-left: 46px;
   }
 }
 /*    catagory items  */
